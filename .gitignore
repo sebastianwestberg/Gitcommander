@@ -1,3 +1,5 @@
 .DS_Store
 src/settings.yml
 vendor/
+**/*.swp
+**/*.swo
