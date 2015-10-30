@@ -1,0 +1,28 @@
+{
+    "name": "sebastianwestberg/behind-the-scenes",
+    "description": "Sniff sniff",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Westberg",
+            "email": "sebastianostbrink@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/console": "~2.8",
+        "symfony/event-dispatcher": "~2.8",
+        "behat/mink": "^1.7.0@dev",
+        "behat/mink-goutte-driver": "^1.2@dev",
+        "simple-bus/message-bus": "~2.2",
+        "symfony/yaml": "^2.7.5"
+    },
+    "require-dev": {
+        "psr/log": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sebastianwestberg\\Bts\\": "src/"
+        }
+    }
+}
